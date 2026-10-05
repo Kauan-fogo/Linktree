@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kauan Paz | Linktree</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-black text-slate-100 min-h-screen flex flex-col items-center justify-between p-4 selection:bg-red-600 selection:text-white">
+
+  <!-- Glow Effect Background em Vermelho -->
+  <div class="fixed top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-red-600/20 blur-[120px] rounded-full -z-10 pointer-events-none"></div>
+
+  <!-- Main Container -->
+  <main class="w-full max-w-md mx-auto flex flex-col items-center pt-8 pb-12">
+    
+    <!-- Profile Header -->
+    <header class="flex flex-col items-center text-center mb-8">
+      <div class="relative group mb-4">
+        <div class="absolute -inset-0.5 bg-gradient-to-r from-red-600 to-red-900 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-300"></div>
+        <img 
+          class="relative w-28 h-28 rounded-full object-cover border-2 border-zinc-900 shadow-xl" 
+          src="image_a5b5ff.jpg" 
+          alt="Foto de Kauan Paz" 
+        />
+      </div>
+      
+      <h1 class="text-2xl font-bold tracking-tight text-white flex items-center gap-1.5">
+        Kauan Paz
+        <i data-lucide="badge-check" class="w-5 h-5 text-red-500 fill-red-500/20"></i>
+      </h1>
+      <p class="text-zinc-400 text-sm mt-1">Desenvolvedor & Criador de Conteúdo</p>
+    </header>
+
+    <!-- Social Bar -->
+    <div class="flex gap-4 mb-8">
+      <a href="#" class="p-2.5 bg-zinc-900/80 border border-zinc-800 rounded-xl text-zinc-400 hover:text-white hover:border-red-500/50 hover:bg-zinc-800/80 transition-all duration-200">
+        <i data-lucide="github" class="w-5 h-5"></i>
+      </a>
+      <a href="#" class="p-2.5 bg-zinc-900/80 border border-zinc-800 rounded-xl text-zinc-400 hover:text-white hover:border-red-500/50 hover:bg-zinc-800/80 transition-all duration-200">
+        <i data-lucide="linkedin" class="w-5 h-5"></i>
+      </a>
+      <a href="#" class="p-2.5 bg-zinc-900/80 border border-zinc-800 rounded-xl text-zinc-400 hover:text-white hover:border-red-500/50 hover:bg-zinc-800/80 transition-all duration-200">
+        <i data-lucide="instagram" class="w-5 h-5"></i>
+      </a>
+      <a href="#" class="p-2.5 bg-zinc-900/80 border border-zinc-800 rounded-xl text-zinc-400 hover:text-white hover:border-red-500/50 hover:bg-zinc-800/80 transition-all duration-200">
+        <i data-lucide="twitter" class="w-5 h-5"></i>
+      </a>
+    </div>
+
+    <!-- Links Section -->
+    <div class="w-full space-y-3.5">
+      
+      <!-- Link Highlighted -->
+      <a href="#" class="group relative block w-full p-0.5 rounded-2xl bg-gradient-to-r from-red-600 via-red-800 to-red-600 bg-[length:200%_auto] hover:bg-[position:right_center] transition-all duration-500 shadow-lg shadow-red-600/10">
+        <div class="flex items-center justify-between w-full bg-zinc-950 p-4 rounded-[14px] group-hover:bg-opacity-90 transition-all duration-200">
+          <div class="flex items-center gap-3">
+            <div class="p-2 bg-red-600/10 rounded-lg text-red-500">
+              <i data-lucide="sparkles" class="w-5 h-5"></i>
+            </div>
+            <div class="text-left">
+              <span class="block font-medium text-white text-sm">Meu Portfólio</span>
+              <span class="block text-xs text-zinc-400">Projetos, experiências e contato</span>
+            </div>
+          </div>
+          <i data-lucide="arrow-up-right" class="w-4 h-4 text-zinc-400 group-hover:text-white group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all"></i>
+        </div>
+      </a>
+
+      <!-- Standard Link 1 -->
+      <a href="#" class="group flex items-center justify-between w-full p-4 bg-zinc-900/60 border border-zinc-800/80 hover:border-red-500/40 rounded-2xl transition-all duration-200 hover:bg-zinc-900">
+        <div class="flex items-center gap-3">
+          <div class="p-2 bg-zinc-800/50 rounded-lg text-zinc-300 group-hover:text-red-500 group-hover:bg-red-600/10 transition-colors">
+            <i data-lucide="youtube" class="w-5 h-5"></i>
+          </div>
+          <span class="font-medium text-zinc-200 text-sm">Canal no YouTube</span>
+        </div>
+        <i data-lucide="chevron-right" class="w-4 h-4 text-zinc-500 group-hover:text-zinc-300 group-hover:translate-x-1 transition-all"></i>
+      </a>
+
+      <!-- Standard Link 2 -->
+      <a href="#" class="group flex items-center justify-between w-full p-4 bg-zinc-900/60 border border-zinc-800/80 hover:border-red-500/40 rounded-2xl transition-all duration-200 hover:bg-zinc-900">
+        <div class="flex items-center gap-3">
+          <div class="p-2 bg-zinc-800/50 rounded-lg text-zinc-300 group-hover:text-red-500 group-hover:bg-red-600/10 transition-colors">
+            <i data-lucide="book-open" class="w-5 h-5"></i>
+          </div>
+          <span class="font-medium text-zinc-200 text-sm">Blog / Artigos</span>
+        </div>
+        <i data-lucide="chevron-right" class="w-4 h-4 text-zinc-500 group-hover:text-zinc-300 group-hover:translate-x-1 transition-all"></i>
+      </a>
+
+      <!-- Standard Link 3 -->
+      <a href="#" class="group flex items-center justify-between w-full p-4 bg-zinc-900/60 border border-zinc-800/80 hover:border-red-500/40 rounded-2xl transition-all duration-200 hover:bg-zinc-900">
+        <div class="flex items-center gap-3">
+          <div class="p-2 bg-zinc-800/50 rounded-lg text-zinc-300 group-hover:text-red-500 group-hover:bg-red-600/10 transition-colors">
+            <i data-lucide="mail" class="w-5 h-5"></i>
+          </div>
+          <span class="font-medium text-zinc-200 text-sm">Contato Profissional</span>
+        </div>
+        <i data-lucide="chevron-right" class="w-4 h-4 text-zinc-500 group-hover:text-zinc-300 group-hover:translate-x-1 transition-all"></i>
+      </a>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-4">
+    <p class="text-xs text-zinc-600">
+      © 2026 Kauan Paz • Criado com Tailwind CSS
+    </p>
+  </footer>
+
+  <!-- Inicialização dos ícones do Lucide -->
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
